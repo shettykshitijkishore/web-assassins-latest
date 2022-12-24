@@ -10,6 +10,13 @@ body
     font-size: large;
     color: #755BB4;
 }
+@media(min-width:991px)
+{
+  div#navbarSupportedContent
+  {
+    display: none;
+  }
+}
 .nav-link:hover
 {
  
