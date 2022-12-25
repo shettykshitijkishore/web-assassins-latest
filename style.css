@@ -76,6 +76,29 @@ height: 100%;
 width: 100%;
 
 }
+@media only screen and (max-width : 1250px){
+  .right
+  {
+    display: none;
+    align-content: center;
+  }
+  #arrow
+  {
+    display: none;
+  }
+  .left .swiper-slide h1
+  {
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  #prob 
+  {
+    width: 100%;
+    padding: none !important;
+    position: relative;
+    right: 20%;
+  }
+}
 .top_image
 {
   position: relative;
@@ -406,6 +429,34 @@ width: 100%;
 /* services */
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+@media only screen and (max-width : 980px)
+{
+  #nav_service
+  {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    align-self: center !important;
+
+  }
+  .flip-card
+  {
+  height: 350px !important;
+  width: 350px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+ display: flex !important;
+ flex-direction: row;
+ gap: 13% !important;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 5%;
+ padding: 0 0 0 0 !important;
+}
+
+}
 .flip-card {
     position: relative;
     left: 10%;
